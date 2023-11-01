@@ -1,0 +1,22 @@
+Para calcular a quantidade de testes possíveis em um campo de CEP, é preciso considerar as diferentes combinações de caracteres e formatos possíveis. No Brasil, um CEP pode ter dois formatos válidos: "xxxxx-xxx" ou "xxxxxxxx", onde "x" representa um dígito numérico de 0 a 9. Para calcular o número total de combinações possíveis, você precisa considerar o número de dígitos e as opções de formatação.
+
+Para um CEP no formato "xxxxx-xxx", existem:
+
+- 5 posições para os primeiros cinco dígitos.
+- 1 posição para o hífen ("-").
+- 3 posições para os últimos três dígitos.
+
+Cada posição pode ter 10 opções (de 0 a 9), exceto a posição do hífen, que tem apenas 1 opção (o próprio hífen). Portanto, o número total de combinações para um CEP no formato "xxxxx-xxx" é calculado da seguinte forma:
+
+ 10^5 x 1 x 10^3 = 10^8 
+
+Para um CEP no formato "xxxxxxxx", existem:
+
+- 8 posições para os oito dígitos.
+
+Cada posição também pode ter 10 opções (de 0 a 9). Portanto, o número total de combinações para um CEP no formato "xxxxxxxx" é calculado da seguinte forma:
+
+ 10^8
+
+Considerando as bordas e fora do escopo este número aumentaria bastante.
+

@@ -1,0 +1,27 @@
+Como desenvolver um cenário de testes
+
+1. Teste de Valores Válidos:
+Caso Normal: Insira um valor inteiro dentro do range aceitável e verifique se o sistema aceita o valor corretamente.
+Caso Limite Inferior: Insira o valor mínimo aceitável e verifique se ele é aceito.
+Caso Limite Superior: Insira o valor máximo aceitável e verifique se ele é aceito.
+
+2. Teste de Valores Inválidos:
+Valores não numéricos: Insira caracteres não numéricos (como letras ou símbolos) e verifique se o sistema rejeita esses valores.
+Valores fora do range: Insira valores abaixo do limite inferior e acima do limite superior e verifique se o sistema os rejeita.
+
+3. Teste de Bordas:
+Borda Inferior - 1: Insira o valor mínimo permitido menos 1 e verifique se é rejeitado.
+Borda Superior + 1: Insira o valor máximo permitido mais 1 e verifique se é rejeitado.
+Borda Inferior: Insira o valor mínimo permitido e verifique se é aceito.
+Borda Superior: Insira o valor máximo permitido e verifique se é aceito.
+
+4. Teste de Casos Especiais:
+Campo Vazio: Deixe o campo em branco e verifique se há uma validação para garantir que o campo não possa ser enviado vazio.
+Zeros à Esquerda: Insira valores com zeros à esquerda e veja se são aceitos corretamente ou se são tratados como números válidos.
+
+5. Teste de Performance:
+Teste de Carga: Se o sistema for utilizado em larga escala, teste como ele se comporta ao aceitar uma grande quantidade de valores inteiros simultaneamente.
+
+6. Teste de Usabilidade:
+Mensagens de Erro Claras: Se um valor inválido for inserido, verifique se o sistema exibe mensagens de erro claras e compreensíveis para orientar o usuário sobre como corrigir o problema.
+

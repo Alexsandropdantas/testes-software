@@ -1,0 +1,15 @@
+Em resumo:
+Defeito (Bug): É um problema no código ou design do software que pode causar erros ou falhas.
+Erro (Error): É uma ação ou decisão incorreta que ocorre durante a execução do software, levando a um comportamento inadequado.
+Falha (Failure): É uma manifestação visível e mensurável de um erro, onde o sistema não executa conforme o esperado.
+
+
+Detalhadamente:
+Defeito (Bug):
+Um defeito, também conhecido como bug, é um problema no código fonte ou na lógica do programa que causa um comportamento indesejado ou incorreto. Defeitos são introduzidos durante o desenvolvimento do software e podem surgir devido a erros humanos, como má compreensão dos requisitos ou erros de digitação. Um defeito é uma imperfeição no código ou no design do software que pode levar a erros.
+
+Erro (Error):
+Um erro, no contexto de testes de software, é um estado ou condição no sistema que não está em conformidade com as expectativas. Em outras palavras, é uma ação ou decisão incorreta tomada por um usuário ou por um componente do sistema durante a execução do software. Erros podem ocorrer devido a falhas humanas ou ações inesperadas do usuário. Os erros podem levar a um comportamento inadequado do sistema.
+
+Falha (Failure):
+Uma falha ocorre quando um componente do sistema, como uma função, módulo ou sistema inteiro, não executa sua função conforme esperado. Uma falha é uma manifestação visível e mensurável de um erro no software. Em termos mais simples, uma falha é quando o software não produz o resultado correto para uma entrada ou condição específica.
